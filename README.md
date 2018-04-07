@@ -1,0 +1,1 @@
+# simple_fav_receipts
