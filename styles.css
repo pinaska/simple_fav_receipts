@@ -1,0 +1,122 @@
+
+
+html {
+  box-sizing: border-box;
+  color:rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: justify;
+  font-size: 62.5%;
+}
+main {
+  width: 655px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 50px 40px 60px 40px;
+  text-align: center;
+}
+
+h1,h3{
+  font-family: 'Nanum Pen Script', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+}
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 2.6em;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: lighter;
+  border: 1px solid deeppink;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+p{
+  font-size: 1em;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.grid{
+display: grid;
+grid-template-columns: 50px 50px;
+grid-gap: 10px;
+background-color: #a11b83;
+color: pink;
+}
+.item{
+  background-color: pink;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.recepits{
+  padding: 10px;
+  display: inline-block;
+  width: 33.3%;
+  border: 1px solid deeppink;
+  text-align: center;
+
+}
+.recepits h3{
+  font-weight: lighter;
+  font-size: 2.4em;
+  padding-bottom: 10px;
+  cursor: pointer;
+  background: deeppink;
+  text-decoration: none;
+  text-shadow: none;
+  margin-bottom: 10px;
+}
+h3 a:hover{
+  color: pink;
+}
+img{
+  max-width: 100px;
+  max-height: 100px;
+  background-color: pink;
+  padding: 10px;
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+  border-radius: 100%;
+
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.img{
+  padding: 10px;
+}
+
+.divwrap{
+  display: flex;
+  text-align: justify;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.directions,.ingredients{
+  text-align: left;
+}
+p.Ingredients{
+  margin-top: 10px;
+  border-top: 1px solid deeppink;
+  padding-top: 10px;
+}
